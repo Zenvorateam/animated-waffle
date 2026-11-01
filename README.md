@@ -31,3 +31,4 @@ This project currently implements Supabase Email/Password authentication. Google
 GitHub par push karo -> Actions > **Build Zenvora APK** > artifact download.
 # probable-parakeet
 # animated-waffle
+# animated-waffle
