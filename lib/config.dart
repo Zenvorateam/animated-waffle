@@ -17,13 +17,13 @@ class AppConfig {
 
   // ---------------------------------------------------------------- SUPABASE
   // Supabase > Project Settings > API
-  static const String supabaseUrl = ''; // https://xxxxx.supabase.co
-  static const String supabaseAnonKey = ''; // anon public key (service_role KEY KABHI MAT DAALNA)
+  static const String supabaseUrl = 'https://bpvfbzkefyqocmqdggtb.supabase.co'; // https://xxxxx.supabase.co
+  static const String supabaseAnonKey = 'sb_publishable_WeJBU8u6xUXtXDfwEMRfDg_j_5tgHCn'; // anon public key (service_role KEY KABHI MAT DAALNA)
 
   // ---------------------------------------------------------------- RAZORPAY
   // Razorpay Dashboard > Settings > API Keys  (sirf Key ID, secret app me nahi daalna)
   // Test key: rzp_test_xxxxx    Live key: rzp_live_xxxxx
-  static const String razorpayKeyId = '';
+  static const String razorpayKeyId = 'rzp_test_TusCjAN4XOJTkH';
   static const String razorpayMerchantName = 'Zenvora Mart';
 
   // ---------------------------------------------------------------- MEMBERSHIP
@@ -34,7 +34,7 @@ class AppConfig {
   // ---------------------------------------------------------------- ADMIN
   // Ye email se login karne wale log Admin panel dekhenge.
   // Supabase me bhi wahi email `admins` table me daalna (supabase/setup.sql dekho).
-  static const List<String> adminEmails = [
+  static const List<String> adminEmails = [ 'kajgarvarad@gmail.com'
     // 'you@example.com',
   ];
   static const String adminPin = '1234'; // Admin panel kholne ka PIN - zaroor badlo
